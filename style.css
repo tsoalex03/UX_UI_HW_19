@@ -67,6 +67,8 @@ button {
     height: 40px;
     border-radius: 8%;
     border: none;
+    background-color: lightgray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .WorkCard1, .WorkCard2, .WorkCard3 {
     display: flex;
@@ -76,6 +78,9 @@ button {
     display: grid;
     grid-area: myArea;
     grid-template-areas: 'myArea myArea myArea';
+}
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
